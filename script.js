@@ -17,7 +17,7 @@ function removeLoadingSpinner() {
 }
 
 // Fonction pour afficher le texte lettre par lettre
-function typeWriterEffect(text, speed = 60) {
+function typeWriterEffect(text, speed = 40) {
   quoteText.innerHTML = ""; // Vide le contenu pour commencer
   let i = 0;
 
